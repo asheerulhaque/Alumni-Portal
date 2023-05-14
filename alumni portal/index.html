@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alumni Portal</title>
+    <link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+</head>
+<body>
+	<header>
+		<div class="parallax-container">
+		  <div class="parallax-image"></div>
+		  <h1>Welcome to the Alumni Portal</h1>
+		  <nav id="nav">
+			<ul>
+			  <li><a href="#home">Home</a></li>
+			  <li><a href="#spotlight">Alumni Spotlight</a></li>
+			  <li><a href="#events">Events</a></li>
+			  <li><a href="#contact">Contact Us</a></li>
+			</ul>
+		  </nav>
+		  <br>
+		</div>
+	  </header>
+	  <main>
+		<section id="home">
+			
+		</section>
+
+		<section id="directory">
+			<h2>Alumni Directory</h2>
+			<form>
+				<label for="search">Search alumni by name, graduation year, or major:</label>
+				<input type="text" id="search" name="search">
+				<input type="submit" value="Search">
+			</form>
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Graduation Year</th>
+						<th>Major</th>
+						<th>Contact Info</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John Smith</td>
+						<td>1995</td>
+						<td>Computer Science</td>
+						<td>j.smith@example.com</td>
+					</tr>
+					<tr>
+						<td>Jane Doe</td>
+						<td>2002</td>
+						<td>Business Administration</td>
+						<td>j.doe@example.com</td>
+					</tr>
+                    <tr>
+						<td>John Smith</td>
+						<td>1995</td>
+						<td>Computer Science</td>
+						<td>j.smith@example.com</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section id="spotlight">
+			<h2>Alumni Spotlight</h2>
+			<div class="spotlight-container">
+			  <div class="spotlight">
+				<img src="a1.jfif" alt="Alumni 1">
+				<h3>John Doe</h3>
+				<h5>Class of 2000</h5>
+				<h5>The quickest way to a parent’s heart is something that can occupy or distract their young children. When alumni with young ‘uns visit the alumni house, or tow their kids along to an event, follow the lead of auto dealerships that give away some popcorn, drinks or candy.</h5>
+				<div class="row">
+					<div class="column">
+						<img src="insta.png"  alt="instagram" class="logo">
+					</div>
+					<div class="column">
+						<img src="twitter.png"  alt="instagram" class="logo">
+					</div>
+					<div class="column">
+						<img src="linkedin.png"  alt="instagram" class="logo">
+					</div>
+				</div>	
+			  </div>
+			  <div class="spotlight">
+				<img src="a2.jpg" alt="Alumni 2">
+				<h3>Jane Smith</h3>
+			    <h5>Class of 2000</h5>
+				<h5>The quickest way to a parent’s heart is something that can occupy or distract their young children. When alumni with young ‘uns visit the alumni house, or tow their kids along to an event, follow the lead of auto dealerships that give away some popcorn, drinks or candy.</h5>
+				<div class="row">
+					<div class="column">
+						<img src="insta.png"  alt="instagram" class="logo">
+					</div>
+					<div class="column">
+						<img src="twitter.png"  alt="instagram" class="logo">
+					</div>
+					<div class="column">
+						<img src="linkedin.png"  alt="instagram" class="logo">
+					</div>
+				</div>	
+			  </div>
+			  <div class="spotlight">
+				<img src="a3.jfif" alt="Alumni 3">
+				<h3>Bob Johnson</h3>
+			    <h5>Class of 2000</h5>
+				<h5>The quickest way to a parent’s heart is something that can occupy or distract their young children. When alumni with young ‘uns visit the alumni house, or tow their kids along to an event, follow the lead of auto dealerships that give away some popcorn, drinks or candy.</h5>
+				<div class="row">
+					<div class="column">
+						<img src="insta.png"  alt="instagram" class="logo">
+					</div>
+					<div class="column">
+						<img src="twitter.png"  alt="instagram" class="logo">
+					</div>
+					<div class="column">
+						<img src="linkedin.png"  alt="instagram" class="logo">
+					</div>
+				</div>	
+			  </div>
+			</div>
+		  </section>
+
+		<section id="events">
+			<h2>Events</h2>
+			<div class="events">
+                <div class="event">
+                  <img src="ev1.png" alt="Event 1">
+                  <div class="event-details">
+                    <h3>Automata 2023</h3>
+				  <h6>Annual Departmental Fest</h6>
+                    <div class="event-date">Oct 12</div>
+                  </div>
+                </div>
+                <div class="event">
+                  <img src="ev2.png" alt="Event 2">
+                  <div class="event-details">
+                    <h3>Qawwali Night</h3>
+				 	 <h6>Spic Macay RLAC Chapter</h6>
+                    <div class="event-date">Nov 5</div>
+                  </div>
+                </div>
+                <div class="event">
+                  <img src="ev3.png" alt="Event 3">
+                  <div class="event-details">
+					<h3>Splendour 2023</h3>
+					<h6>Programme Schedule</h6>
+                    <div class="event-date">Dec 3</div>
+                  </div>
+                </div>
+              </div>
+              
+			  <h2>Registration form</h2>
+			<div class="registration">
+		
+			<form>
+				<h4>To register for an event, please fill out the registration form and submit.</h4>
+				<br>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				<label for="event">Event:</label>
+				<select id="event" name="event">
+					<option value="homecoming">Alumni Homecoming Weekend</option>
+					<option value="mixer">Networking Mixer</option>
+					<option value="party">Holiday Party</option>
+				</select><br>
+				<input type="submit" value="Register">
+			</form>
+		</div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<div class="contactus">
+			<h4>If you have any questions, comments, or suggestions, please fill out the form below and we will get back to you as soon as possible.</h4>
+			<br>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+        </form>
+	</div>
+        </section>
+    </main>
+    <footer>
+	</h5>&copy; 2023 Alumni Portal</h5>
+    </footer>
+</body>
+</html>
